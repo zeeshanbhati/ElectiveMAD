@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:columnCount="2"
+    android:rowCount="3"
+    tools:context=".Assignment3grid">
+
+
+    <LinearLayout
+         android:paddingLeft="20dp"
+         android:layout_height="wrap_content"
+         android:layout_width="wrap_content"
+         android:orientation="vertical">
+
+         <ImageView
+             android:layout_gravity="center_horizontal"
+             android:layout_width="180dp"
+             android:layout_height="180dp"
+             android:src="@drawable/iphone11promax"/>
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="iPhone 11 pro max"
+             android:layout_gravity="center_horizontal"
+             android:textSize="17sp"
+             />
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="₹ 1,17,100"
+             android:layout_gravity="center_horizontal"
+             android:textSize="15sp"
+             />
+     </LinearLayout>
+
+    <LinearLayout
+        android:paddingLeft="20dp"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:paddingTop="20dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:src="@drawable/s20ultra"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Samsung S20 Ultra"
+            android:layout_gravity="center_horizontal"
+            android:textSize="17sp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="₹ 97,100"
+            android:layout_gravity="center_horizontal"
+            android:textSize="15sp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:paddingLeft="20dp"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_gravity="center_horizontal"
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:src="@drawable/iphone11"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="iPhone 11 "
+            android:layout_gravity="center_horizontal"
+            android:textSize="17sp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="₹ 68,100"
+            android:layout_gravity="center_horizontal"
+            android:textSize="15sp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:paddingLeft="20dp"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+
+            android:layout_gravity="center_horizontal"
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:src="@drawable/op8pro"/>
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="iPhone 11 pro max"
+            android:layout_gravity="center_horizontal"
+            android:textSize="17sp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="₹ 1,17,100"
+            android:layout_gravity="center_horizontal"
+            android:textSize="15sp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:paddingLeft="20dp"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_gravity="center_horizontal"
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:src="@drawable/s20plus"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Samsung S20 +"
+            android:layout_gravity="center_horizontal"
+            android:textSize="17sp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="₹ 73,900"
+            android:layout_gravity="center_horizontal"
+            android:textSize="15sp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:paddingLeft="20dp"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_gravity="center_horizontal"
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:src="@drawable/rogphone3"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ASUS ROG PHONE 3"
+            android:layout_gravity="center_horizontal"
+            android:textSize="17sp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="₹ 49,990"
+            android:layout_gravity="center_horizontal"
+            android:textSize="15sp"
+            />
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</GridLayout>

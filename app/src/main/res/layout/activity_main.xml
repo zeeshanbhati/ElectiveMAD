@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="490dp"
+            android:src="@drawable/waves" />
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="250dp"
+            android:src="@drawable/guy"
+            android:layout_marginTop="120dp"
+            />
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="100dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="Jonas Kahnwald"
+            android:textSize="32sp"
+            android:textStyle="bold|italic"
+            android:typeface="serif" />
+
+        <TextView
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:text="Sales Manager"
+            android:textSize="21sp"
+            android:textStyle="bold|italic"
+            android:typeface="serif"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="305dp"
+            android:layout_marginRight="50dp"
+            android:textColor="#ffffff"/>
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/logo"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="10dp"/>
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="About our Company"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor=" #000033"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+    
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_marginLeft="25dp"
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:text="CARZSPA is a car modding workshop,We defines new standards cars,Modding works for most of the cars is available , Also Custom cars are available for sale"
+            android:textStyle="bold"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="25dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:text="Address : DriveIn Road  Ahemadabad Opp. Himalaya Mall"
+            android:textStyle="bold"
+            android:textSize="20sp"/>
+
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="25dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:autoLink="email"
+            android:text="Email: jonaskahnwald@carzspa.com"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="22dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Contact: +919876543210"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:layout_marginTop="40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Visit us at"
+            android:textSize="15sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_gravity="center"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="https://www.carzspa.com/"
+            android:autoLink="web"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textSize="20sp"/>
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
